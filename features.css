@@ -29,17 +29,11 @@ body {
 }
 
 .intro_text .title {
-  width: 40%;
-  font-size: 45px;
+  width: 60%;
+  font-size: 65px;
   text-align: center;
 
-  background-image: linear-gradient(
-    to left,
-    #d88c9a,
-    #f2d0a9,
-    #4cb4c6,
-    #615681
-  );
+  background-image: linear-gradient(to left, #d88c9a, #4cb4c6, #615681);
   -webkit-background-clip: text;
   animation: animate 5s linear infinite;
   -webkit-background-size: 500%;
@@ -58,15 +52,10 @@ body {
   }
 }
 
-.intro_text .intro_points {
+.intro_text .intro_para {
   text-align: center;
-  width: 55%;
+  width: 50%;
   font-size: 20px;
-  list-style-type: none;
-}
-
-.intro_points li {
-  margin: 15px;
 }
 
 .scrolldown {
